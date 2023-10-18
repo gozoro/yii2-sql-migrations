@@ -1,0 +1,34 @@
+{
+	"name": "gozoro/yii2-sql-migrations",
+	"description": "Migration controller that works with sql-files ...up.sql and ...down.sql.",
+	"keywords":[
+		"yii2",
+		"sql",
+		"migration",
+		"migrations",
+		"migrate",
+		"sql-migration",
+		"sql-migrations",
+		"up.sql",
+		"down.sql",
+		"sql-files"
+	],
+	"homepage": "https://github.com/gozoro/yii2-sql-migrations",
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Gozoro",
+			"email": "gozoro@yandex.ru"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": "~2.0.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"gozoro\\sql_migrations\\": "src"
+		}
+	}
+}
