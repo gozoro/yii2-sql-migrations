@@ -8,9 +8,21 @@ use yii\helpers\Console;
 use yii\console\Exception;
 use yii\console\ExitCode;
 
+
 /**
+ * Migration tool using sql-files ...up.sql and ...down.sql
  *
- * Migration manages
+ *
+ * File naming example:
+ *
+ * ```
+ * - 01_create_table.up.sql
+ * - 01_create_table.down.sql
+ * - 02_insert_data.up.sql
+ * - 02_insert_data.down.sql
+ * ```
+ *
+ * To sort files well, you can add as many zeros to the beginning of the file name as needed.
  */
 class MigrateController extends MigrateBaseController
 {
