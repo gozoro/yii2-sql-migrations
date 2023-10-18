@@ -24,7 +24,7 @@ abstract class MigrateBaseController extends \yii\console\Controller
     public $defaultAction = 'up';
 
     /**
-     * @var string the directory storing the migration classes. This can be either
+     * @var string the directory storing the migration files. This can be either
      * a path alias or a directory.
      */
     public $migrationPath = '@app/migrations';
