@@ -26,6 +26,7 @@ $config = [
 			//'migrationTable' => 'other_migration_table',
 			//'migrationPath' => '@app/other_migration_path',
 			//'db' => 'other_database_name'
+		],
 	],
 	...
 ];
