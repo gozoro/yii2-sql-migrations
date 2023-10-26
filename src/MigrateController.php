@@ -1,6 +1,6 @@
 <?php
 
-namespace app\commands;
+namespace gozoro\sql_migrations;
 
 
 use Yii;
