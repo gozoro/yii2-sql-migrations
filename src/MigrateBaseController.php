@@ -170,6 +170,9 @@ abstract class MigrateBaseController extends \yii\console\Controller
 			// it's a hack for throwing an exception from fail SQL statement
 			while ($command->pdoStatement->nextRowSet()){}
 
+			// reconnect to database
+			$this->db->close();
+			$this->db->open();
 			return true;
 		}
 		catch (\Exception $e)
